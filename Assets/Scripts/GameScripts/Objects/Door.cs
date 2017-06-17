@@ -21,7 +21,7 @@ public class Door : IterativeObject {
 	
 	// Update is called once per frame
 	void Update () {
-		
+      
 	}
 
     public override bool Interact(GameObject actor) {
