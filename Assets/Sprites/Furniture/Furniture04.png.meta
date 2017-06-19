@@ -1,0 +1,1224 @@
+fileFormatVersion: 2
+guid: d94b144febc89f24dbf155e6cf6b0a5f
+timeCreated: 1497887703
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Furniture04_0
+    21300002: Furniture04_1
+    21300004: Furniture04_2
+    21300006: Furniture04_3
+    21300008: Furniture04_4
+    21300010: Furniture04_5
+    21300012: Furniture04_6
+    21300014: Furniture04_7
+    21300016: Furniture04_8
+    21300018: Furniture04_9
+    21300020: Furniture04_10
+    21300022: Furniture04_11
+    21300024: Furniture04_12
+    21300026: Furniture04_13
+    21300028: Furniture04_14
+    21300030: Furniture04_15
+    21300032: Furniture04_16
+    21300034: Furniture04_17
+    21300036: Furniture04_18
+    21300038: Furniture04_19
+    21300040: Furniture04_20
+    21300042: Furniture04_21
+    21300044: Furniture04_22
+    21300046: Furniture04_23
+    21300048: Furniture04_24
+    21300050: Furniture04_25
+    21300052: Furniture04_26
+    21300054: Furniture04_27
+    21300056: Furniture04_28
+    21300058: Furniture04_29
+    21300060: Furniture04_30
+    21300062: Furniture04_31
+    21300064: Furniture04_32
+    21300066: Furniture04_33
+    21300068: Furniture04_34
+    21300070: Furniture04_35
+    21300072: Furniture04_36
+    21300074: Furniture04_37
+    21300076: Furniture04_38
+    21300078: Furniture04_39
+    21300080: Furniture04_40
+    21300082: Furniture04_41
+    21300084: Furniture04_42
+    21300086: Furniture04_43
+    21300088: Furniture04_44
+    21300090: Furniture04_45
+    21300092: Furniture04_46
+    21300094: Furniture04_47
+    21300096: Furniture04_48
+    21300098: Furniture04_49
+    21300100: Furniture04_50
+    21300102: Furniture04_51
+    21300104: Furniture04_52
+    21300106: Furniture04_53
+    21300108: Furniture04_54
+    21300110: Furniture04_55
+    21300112: Furniture04_56
+    21300114: Furniture04_57
+    21300116: Furniture04_58
+    21300118: Furniture04_59
+    21300120: Furniture04_60
+    21300122: Furniture04_61
+    21300124: Furniture04_62
+    21300126: Furniture04_63
+    21300128: Furniture04_64
+    21300130: Furniture04_65
+    21300132: Furniture04_66
+    21300134: Furniture04_67
+    21300136: Furniture04_68
+    21300138: Furniture04_69
+    21300140: Furniture04_70
+    21300142: Furniture04_71
+    21300144: Furniture04_72
+    21300146: Furniture04_73
+    21300148: Furniture04_74
+    21300150: Furniture04_75
+    21300152: Furniture04_76
+    21300154: Furniture04_77
+    21300156: Furniture04_78
+    21300158: Furniture04_79
+    21300160: Furniture04_80
+    21300162: Furniture04_81
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Furniture04_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 370
+        width: 57
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 369
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 371
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 371
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 370
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_5
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 371
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_6
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 371
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_7
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 371
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_8
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 367
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_9
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 367
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_10
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 352
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_11
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 352
+        width: 38
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_12
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 348
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_13
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 287
+        width: 29
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_14
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 285
+        width: 32
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_15
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 286
+        width: 15
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_16
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 288
+        width: 21
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_17
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 288
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_18
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 288
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_19
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 288
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_20
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 288
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_21
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 288
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_22
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 288
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_23
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 288
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_24
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 287
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_25
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 279
+        width: 29
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_26
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 294
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_27
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 201
+        width: 39
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_28
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 201
+        width: 38
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_29
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 230
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_30
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 230
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_31
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 235
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_32
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 201
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_33
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 201
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_34
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 201
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_35
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 225
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_36
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 225
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_37
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 225
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_38
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 225
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_39
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 215
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_40
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 202
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_41
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 200
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_42
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 201
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_43
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 201
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_44
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 164
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_45
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 164
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_46
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 164
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_47
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 159
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_48
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 148
+        width: 57
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_49
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 148
+        width: 58
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_50
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 149
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_51
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 176
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_52
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 129
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_53
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 125
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_54
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 122
+        width: 29
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_55
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 122
+        width: 29
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_56
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 147
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_57
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 87
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_58
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 87
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_59
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 69
+        width: 32
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_60
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 79
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_61
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 79
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_62
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 79
+        width: 38
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_63
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 71
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_64
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 75
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_65
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 76
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_66
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 68
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_67
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 42
+        width: 32
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_68
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 43
+        width: 15
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_69
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 45
+        width: 21
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_70
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 9
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_71
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 9
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_72
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 9
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_73
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 9
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_74
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 10
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_75
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1
+        width: 20
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_76
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 11
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_77
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 45
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_78
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 45
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_79
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 2
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_80
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 8
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Furniture04_81
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 8
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
