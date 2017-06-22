@@ -76,6 +76,7 @@ public class Character : MonoBehaviour {
     private void OnCollisionEnter2D(Collision2D collision) {       
         if(collision.gameObject.tag == "Iteractive") {
            targetObject = collision.gameObject.GetComponent<IterativeObject>();
+            print(targetObject);
         }
     }
 

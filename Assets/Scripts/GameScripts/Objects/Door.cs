@@ -45,7 +45,7 @@ public class Door : IterativeObject {
     }
 
     private void Open() {      
-        open = true;
+        open = true;     
         doorAnimator.SetBool("open", open);
     }
 
