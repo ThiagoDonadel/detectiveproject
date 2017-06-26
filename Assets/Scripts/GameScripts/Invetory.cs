@@ -11,6 +11,7 @@ public class Invetory {
 
     public void Put(GameItem newItem) {
         items.Add(newItem);
+        LevelController.instance.messageController.ShowDialogBox("O item " + newItem.name + " foi adquirido");
     }
 
     public bool Carrying(string itemCode) {
@@ -22,7 +23,9 @@ public class Invetory {
         bool consumed = false;
 
         if (Carrying(itemCode)) {
-            consumed =  items.Remove(items.Find(items => items.code == itemCode));
+            GameItem item = items.Find(items => items.code == itemCode);
+            LevelController.instance.messageController.ShowDialogBox("O item " + item.name +" foi utilizado");
+            consumed = items.Remove(item);
         }
 
         return consumed;

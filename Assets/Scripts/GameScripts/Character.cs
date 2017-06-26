@@ -23,9 +23,7 @@ public class Character : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        walkAnimator = GetComponent<Animator>();
-        GameItem key = new GameItem();
-        key.code = "##KEY_0001"; 
+        walkAnimator = GetComponent<Animator>();       
     }
 
     private void FixedUpdate() {
@@ -75,14 +73,17 @@ public class Character : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collision) {       
         if(collision.gameObject.tag == "Iteractive") {
-           targetObject = collision.gameObject.GetComponent<IterativeObject>();
-            print(targetObject);
+            targetObject = collision.gameObject.GetComponent<IterativeObject>();
+            LevelController.instance.messageController.ShowDialogBallon("...", transform.gameObject);
         }
     }
 
     private void OnCollisionExit2D(Collision2D collision) {
         if(targetObject != null) {
-            targetObject = null;
+            if (targetObject.tag == "Iteractive") {
+                LevelController.instance.messageController.HideDialogBallon();
+            }
+            targetObject = null;            
         }
     }
 

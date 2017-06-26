@@ -7,7 +7,7 @@ public class Door : IterativeObject {
 
     public enum LockType { NONE, KEY, PASSWORD };
     public bool locked;
-    public bool open;
+    public bool closed;
     public LockType lockType = LockType.NONE;
     public string unlockWith;
 
@@ -30,23 +30,29 @@ public class Door : IterativeObject {
 
         if (actor.tag == "Character") {
             Character character = actor.GetComponent<Character>();
-            if (!open) {
-                if(locked) {
-                    if(lockType == LockType.KEY) {
-                         
+            if (closed) {
+                if (locked) {
+                    if (lockType == LockType.KEY) {
+                        if(character.getInventory().Consume(unlockWith)) {
+                            locked = false;
+                            Open();                            
+                        } else {
+                            LevelController.instance.messageController.ShowDialogBox("A porta está trancada!!!");
+                        }                        
                     }
                 } else {
                     Open();
                 }
-            }            
+            }
+           
         }  
 
         return successful;
     }
 
     private void Open() {      
-        open = true;     
-        doorAnimator.SetBool("open", open);
+        closed = false;     
+        doorAnimator.SetBool("open", !closed);
     }
 
 }
