@@ -1,0 +1,930 @@
+fileFormatVersion: 2
+guid: f271ea7ca7030ad4c92474234c4a921f
+timeCreated: 1498579695
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Forniture05_0
+    21300002: Forniture05_1
+    21300004: Forniture05_2
+    21300006: Forniture05_3
+    21300008: Forniture05_4
+    21300010: Forniture05_5
+    21300012: Forniture05_6
+    21300014: Forniture05_7
+    21300016: Forniture05_8
+    21300018: Forniture05_9
+    21300020: Forniture05_10
+    21300022: Forniture05_11
+    21300024: Forniture05_12
+    21300026: Forniture05_13
+    21300028: Forniture05_14
+    21300030: Forniture05_15
+    21300032: Forniture05_16
+    21300034: Forniture05_17
+    21300036: Forniture05_18
+    21300038: Forniture05_19
+    21300040: Forniture05_20
+    21300042: Forniture05_21
+    21300044: Forniture05_22
+    21300046: Forniture05_23
+    21300048: Forniture05_24
+    21300050: Forniture05_25
+    21300052: Forniture05_26
+    21300054: Forniture05_27
+    21300056: Forniture05_28
+    21300058: Forniture05_29
+    21300060: Forniture05_30
+    21300062: Forniture05_31
+    21300064: Forniture05_32
+    21300066: Forniture05_33
+    21300068: Forniture05_34
+    21300070: Forniture05_35
+    21300072: Forniture05_36
+    21300074: Forniture05_37
+    21300076: Forniture05_38
+    21300078: Forniture05_39
+    21300080: Forniture05_40
+    21300082: Forniture05_41
+    21300084: Forniture05_42
+    21300086: Forniture05_43
+    21300088: Forniture05_44
+    21300090: Forniture05_45
+    21300092: Forniture05_46
+    21300094: Forniture05_47
+    21300096: Forniture05_48
+    21300098: Forniture05_49
+    21300100: Forniture05_50
+    21300102: Forniture05_51
+    21300104: Forniture05_52
+    21300106: Forniture05_53
+    21300108: Forniture05_54
+    21300110: Forniture05_55
+    21300112: Forniture05_56
+    21300114: Forniture05_57
+    21300116: Forniture05_58
+    21300118: Forniture05_59
+    21300120: Forniture05_60
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Forniture05_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 378
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 378
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 378
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 378
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 378
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_5
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 378
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_6
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 378
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_7
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 378
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_8
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 378
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_9
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 378
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_10
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 378
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_11
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 378
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_12
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 372
+        width: 68
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_13
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 372
+        width: 68
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_14
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 372
+        width: 68
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_15
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 339
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_16
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 339
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_17
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 339
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_18
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 339
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_19
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 339
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_20
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 339
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_21
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 339
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_22
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 339
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_23
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 339
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_24
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 339
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_25
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 339
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_26
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 339
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_27
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 333
+        width: 68
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_28
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 333
+        width: 68
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_29
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 333
+        width: 68
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_30
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 264
+        width: 25
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_31
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 264
+        width: 25
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_32
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 264
+        width: 24
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_33
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 264
+        width: 25
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_34
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 264
+        width: 24
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_35
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 264
+        width: 26
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_36
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 244
+        width: 32
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_37
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 243
+        width: 61
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_38
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 244
+        width: 32
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_39
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 243
+        width: 61
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_40
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 244
+        width: 32
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_41
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 243
+        width: 61
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_42
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 243
+        width: 32
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_43
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 242
+        width: 59
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_44
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 181
+        width: 32
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_45
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 181
+        width: 32
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_46
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 181
+        width: 32
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_47
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 181
+        width: 32
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_48
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 155
+        width: 32
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_49
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 154
+        width: 61
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_50
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 155
+        width: 32
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_51
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 154
+        width: 61
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_52
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 154
+        width: 32
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_53
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 153
+        width: 61
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_54
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 154
+        width: 32
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_55
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 153
+        width: 61
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_56
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 93
+        width: 59
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_57
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 93
+        width: 59
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_58
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 20
+        width: 70
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_59
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 20
+        width: 70
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forniture05_60
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 20
+        width: 70
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

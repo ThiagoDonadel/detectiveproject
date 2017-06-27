@@ -1,49 +1,39 @@
 fileFormatVersion: 2
-guid: 793944986647fa3499d43bf22c912cf1
-timeCreated: 1497887537
+guid: c85652bb5d82b174d861e14e3c8cc206
+timeCreated: 1498583784
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Furniture03_0
-    21300002: Furniture03_1
-    21300004: Furniture03_2
-    21300006: Furniture03_3
-    21300008: Furniture03_4
-    21300010: Furniture03_5
-    21300012: Furniture03_6
-    21300014: Furniture03_7
-    21300016: Furniture03_8
-    21300018: Furniture03_9
-    21300020: Furniture03_10
-    21300022: Furniture03_11
-    21300024: Furniture03_12
-    21300026: Furniture03_13
-    21300028: Furniture03_14
-    21300030: Furniture03_15
-    21300032: Furniture03_16
-    21300034: Furniture03_17
-    21300036: Furniture03_18
-    21300038: Furniture03_19
-    21300040: Furniture03_20
-    21300042: Furniture03_21
-    21300044: Furniture03_22
-    21300046: Furniture03_23
-    21300048: Furniture03_24
-    21300050: Furniture03_25
-    21300052: Furniture03_26
-    21300054: Furniture03_27
-    21300056: Furniture03_28
-    21300058: Furniture03_29
-    21300060: Furniture03_30
-    21300062: Furniture03_31
-    21300064: Furniture03_32
-    21300066: Furniture03_33
-    21300068: Furniture03_34
-    21300070: Furniture03_35
-    21300072: Furniture03_36
-    21300074: Furniture03_37
-    21300076: Furniture03_38
-    21300078: Furniture03_39
+    21300000: bags_0
+    21300002: bags_1
+    21300004: bags_2
+    21300006: bags_3
+    21300008: bags_4
+    21300010: bags_5
+    21300012: bags_6
+    21300014: bags_7
+    21300016: bags_8
+    21300018: bags_9
+    21300020: bags_10
+    21300022: bags_11
+    21300024: bags_12
+    21300026: bags_13
+    21300028: bags_14
+    21300030: bags_15
+    21300032: bags_16
+    21300034: bags_17
+    21300036: bags_18
+    21300038: bags_19
+    21300040: bags_20
+    21300042: bags_21
+    21300044: bags_22
+    21300046: bags_23
+    21300048: bags_24
+    21300050: bags_25
+    21300052: bags_26
+    21300054: bags_27
+    21300056: bags_28
+    21300058: bags_29
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -110,520 +100,390 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Furniture03_0
+      name: bags_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 218
-        width: 35
-        height: 64
+        x: 19
+        y: 50
+        width: 27
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Furniture03_1
+      name: bags_1
       rect:
         serializedVersion: 2
-        x: 44
-        y: 217
-        width: 35
-        height: 64
+        x: 51
+        y: 50
+        width: 27
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Furniture03_2
+      name: bags_2
       rect:
         serializedVersion: 2
-        x: 84
-        y: 218
-        width: 57
-        height: 64
+        x: 83
+        y: 50
+        width: 27
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Furniture03_3
+      name: bags_3
       rect:
         serializedVersion: 2
-        x: 148
-        y: 217
-        width: 35
-        height: 64
+        x: 115
+        y: 50
+        width: 27
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Furniture03_4
+      name: bags_4
       rect:
         serializedVersion: 2
-        x: 185
-        y: 217
-        width: 34
-        height: 64
+        x: 147
+        y: 50
+        width: 27
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Furniture03_5
+      name: bags_5
       rect:
         serializedVersion: 2
-        x: 226
-        y: 217
-        width: 57
-        height: 64
+        x: 179
+        y: 50
+        width: 27
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Furniture03_6
+      name: bags_6
       rect:
         serializedVersion: 2
-        x: 288
-        y: 217
-        width: 38
-        height: 61
+        x: 211
+        y: 50
+        width: 27
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Furniture03_7
+      name: bags_7
       rect:
         serializedVersion: 2
-        x: 332
-        y: 217
-        width: 38
-        height: 61
+        x: 243
+        y: 50
+        width: 27
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Furniture03_8
-      rect:
-        serializedVersion: 2
-        x: 378
-        y: 215
-        width: 35
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Furniture03_9
-      rect:
-        serializedVersion: 2
-        x: 423
-        y: 216
-        width: 59
-        height: 71
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Furniture03_10
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 145
-        width: 34
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Furniture03_11
-      rect:
-        serializedVersion: 2
-        x: 52
-        y: 150
-        width: 32
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Furniture03_12
-      rect:
-        serializedVersion: 2
-        x: 91
-        y: 148
-        width: 47
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Furniture03_13
-      rect:
-        serializedVersion: 2
-        x: 145
-        y: 167
-        width: 35
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Furniture03_14
-      rect:
-        serializedVersion: 2
-        x: 186
-        y: 154
-        width: 34
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Furniture03_15
-      rect:
-        serializedVersion: 2
-        x: 233
-        y: 153
-        width: 36
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Furniture03_16
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 152
-        width: 34
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Furniture03_17
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 91
-        width: 57
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Furniture03_18
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 90
-        width: 34
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Furniture03_19
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 92
-        width: 38
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Furniture03_20
-      rect:
-        serializedVersion: 2
-        x: 156
-        y: 92
-        width: 38
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Furniture03_21
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 91
-        width: 34
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Furniture03_22
-      rect:
-        serializedVersion: 2
-        x: 241
-        y: 92
-        width: 30
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Furniture03_23
+      name: bags_8
       rect:
         serializedVersion: 2
         x: 275
-        y: 92
-        width: 32
-        height: 43
+        y: 50
+        width: 27
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Furniture03_24
+      name: bags_9
       rect:
         serializedVersion: 2
-        x: 310
-        y: 92
-        width: 32
-        height: 37
+        x: 307
+        y: 50
+        width: 27
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Furniture03_25
+      name: bags_10
       rect:
         serializedVersion: 2
-        x: 350
-        y: 88
-        width: 52
-        height: 53
+        x: 339
+        y: 50
+        width: 27
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Furniture03_26
+      name: bags_11
       rect:
         serializedVersion: 2
-        x: 407
-        y: 88
-        width: 52
-        height: 50
+        x: 371
+        y: 50
+        width: 27
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Furniture03_27
+      name: bags_12
       rect:
         serializedVersion: 2
-        x: 470
-        y: 90
-        width: 33
-        height: 49
+        x: 403
+        y: 50
+        width: 27
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Furniture03_28
+      name: bags_13
       rect:
         serializedVersion: 2
-        x: 7
-        y: 8
-        width: 29
-        height: 70
+        x: 435
+        y: 50
+        width: 27
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Furniture03_29
+      name: bags_14
       rect:
         serializedVersion: 2
-        x: 48
-        y: 6
-        width: 32
-        height: 76
+        x: 467
+        y: 50
+        width: 27
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Furniture03_30
+      name: bags_15
       rect:
         serializedVersion: 2
-        x: 90
-        y: 7
-        width: 15
-        height: 73
+        x: 19
+        y: 18
+        width: 27
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Furniture03_31
+      name: bags_16
       rect:
         serializedVersion: 2
-        x: 109
-        y: 9
-        width: 21
-        height: 73
+        x: 51
+        y: 18
+        width: 27
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Furniture03_32
+      name: bags_17
       rect:
         serializedVersion: 2
-        x: 142
-        y: 9
-        width: 57
-        height: 64
+        x: 83
+        y: 18
+        width: 27
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Furniture03_33
+      name: bags_18
       rect:
         serializedVersion: 2
-        x: 203
-        y: 9
-        width: 35
-        height: 64
+        x: 115
+        y: 18
+        width: 27
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Furniture03_34
+      name: bags_19
       rect:
         serializedVersion: 2
-        x: 240
-        y: 9
-        width: 35
-        height: 64
+        x: 147
+        y: 18
+        width: 27
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Furniture03_35
+      name: bags_20
       rect:
         serializedVersion: 2
-        x: 279
-        y: 9
-        width: 35
-        height: 73
+        x: 179
+        y: 18
+        width: 27
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Furniture03_36
+      name: bags_21
       rect:
         serializedVersion: 2
-        x: 318
-        y: 9
-        width: 20
-        height: 57
+        x: 211
+        y: 18
+        width: 27
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Furniture03_37
+      name: bags_22
       rect:
         serializedVersion: 2
-        x: 345
-        y: 9
-        width: 57
-        height: 76
+        x: 243
+        y: 18
+        width: 27
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Furniture03_38
+      name: bags_23
       rect:
         serializedVersion: 2
-        x: 409
-        y: 9
-        width: 57
-        height: 72
+        x: 275
+        y: 18
+        width: 27
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Furniture03_39
+      name: bags_24
       rect:
         serializedVersion: 2
-        x: 471
-        y: 31
-        width: 33
-        height: 49
+        x: 307
+        y: 18
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bags_25
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 18
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bags_26
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 18
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bags_27
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 18
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bags_28
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 18
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bags_29
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 18
+        width: 27
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
