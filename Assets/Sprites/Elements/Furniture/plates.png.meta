@@ -1,14 +1,13 @@
 fileFormatVersion: 2
-guid: 4163ee172011166489c41a9c323c8f72
-timeCreated: 1498665247
+guid: 24d210f51877808489230632cb6adc53
+timeCreated: 1498672837
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Furniture01_0
-    21300002: Furniture01_1
-    21300004: Furniture01_2
-    21300006: Furniture01_3
-    21300008: Furniture01_4
+    21300000: plates_0
+    21300002: plates_1
+    21300004: plates_2
+    21300006: plates_3
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -75,68 +74,55 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Furniture01_0
+      name: plates_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 97
-        width: 62
-        height: 49
+        x: 7
+        y: 11
+        width: 31
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Furniture01_1
+      name: plates_1
       rect:
         serializedVersion: 2
-        x: 65
-        y: 97
-        width: 60
-        height: 37
+        x: 46
+        y: 4
+        width: 32
+        height: 33
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Furniture01_2
+      name: plates_2
       rect:
         serializedVersion: 2
-        x: 129
-        y: 97
-        width: 62
+        x: 80
+        y: 4
+        width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Furniture01_3
+      name: plates_3
       rect:
         serializedVersion: 2
-        x: 3
-        y: 5
-        width: 90
-        height: 70
+        x: 113
+        y: 8
+        width: 27
+        height: 30
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Furniture01_4
-      rect:
-        serializedVersion: 2
-        x: 99
-        y: 5
-        width: 90
-        height: 70
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 10, y: 19, z: 12, w: 0}
       outline: []
       tessellationDetail: 0
     outline: []
