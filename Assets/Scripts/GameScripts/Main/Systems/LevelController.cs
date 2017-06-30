@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelController : MonoBehaviour {
 
     public static LevelController instance;
     public MessageController messageController;
+    public int level;
 
     private void Awake() {
         instance = this;
@@ -20,4 +22,8 @@ public class LevelController : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    public void ResetLevel() {
+        SceneManager.LoadScene("level" + level);
+    }
 }

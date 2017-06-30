@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using GameEnums;
 
-public class Character : MonoBehaviour {
-
-    public enum Direction { NONE, UP, DOWN, LEFT, RIGHT};
+public class Character : MonoBehaviour {   
 
     public Direction currentDirection;
     public float moveSpeed;
@@ -94,7 +93,7 @@ public class Character : MonoBehaviour {
     }
 
     private void UpdateAnimatorParams() {        
-        walkAnimator.SetInteger("direction", (int) currentDirection);
+        walkAnimator.SetInteger("direction", ((int) currentDirection)+1);
         walkAnimator.SetBool("walking", walking);
     }
 

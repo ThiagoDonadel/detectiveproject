@@ -27,7 +27,7 @@ public class Container : IterativeObject {
                 }
                 items.Clear();
             } else {
-                LevelController.instance.messageController.ShowDialogBox("Não há nada aqui");
+                base.Interact(actor);
             }
         }
 
