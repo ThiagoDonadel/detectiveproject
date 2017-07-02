@@ -11,7 +11,7 @@ public class HouseGhost : MonoBehaviour {
 
     // Use this for initialization
     void Start() {
-        StartMoving();
+        //StartMoving();
     }
 
 
@@ -57,5 +57,11 @@ public class HouseGhost : MonoBehaviour {
 
         Rigidbody2D rb = transform.GetComponent<Rigidbody2D>();
         rb.velocity = direction * speed * Time.deltaTime;
-    }    
+    }
+
+    private void OnTriggerEnter2D(Collider2D other) {
+        if (other.gameObject.tag == "Character") {
+            LevelController.instance.ResetLevel();
+        }
+    }
 }

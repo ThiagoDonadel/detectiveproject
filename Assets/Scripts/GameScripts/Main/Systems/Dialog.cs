@@ -30,7 +30,7 @@ public class Dialog : MonoBehaviour {
                 Hide();
             }
         }
-	}
+	}    
 
     public void ShowDialog(string text) {
         if(canvas.enabled) {

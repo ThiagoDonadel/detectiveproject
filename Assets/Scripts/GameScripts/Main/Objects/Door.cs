@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Door : IterativeObject {
 
-    public enum LockType { NONE, KEY, PASSWORD };
+    public enum LockType { NONE, KEY, PASSWORD, EVENT };
     public bool locked;
     public bool closed;
     public LockType lockType = LockType.NONE;
@@ -50,9 +50,15 @@ public class Door : IterativeObject {
         return successful;
     }
 
+    public void UnlockAndOpen() {
+        locked = false;
+        Open();
+    }
+
     private void Open() {      
         closed = false;     
         doorAnimator.SetBool("open", !closed);
+        GetComponent<AudioSource>().Play();
     }
 
 }

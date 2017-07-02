@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 7ce40bbfcc0176545ba40d0c87224b96
-timeCreated: 1498862198
+guid: e401b2b5fb2456f43bcfe5121ee49520
+timeCreated: 1499018355
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Ghost_0
-    21300002: Ghost_1
-    21300004: Ghost_2
-    21300006: Ghost_3
+    21300000: notes_0
+    21300002: notes_1
+    21300004: notes_2
+    21300006: notes_3
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -74,54 +74,54 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ghost_0
+      name: notes_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 144
-        width: 30
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Ghost_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 96
-        width: 30
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Ghost_2
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 48
-        width: 30
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Ghost_3
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 1
         y: 0
-        width: 30
-        height: 29
+        width: 41
+        height: 162
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: notes_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 62
+        width: 30
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: notes_2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 40
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: notes_3
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 0
+        width: 40
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0

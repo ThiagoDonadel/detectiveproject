@@ -5,8 +5,7 @@ using GameEnums;
 
 public class GhostPoint : MonoBehaviour {
 
-    public Direction x;
-    public Direction y;
+    public Direction[] directions;
 
 	// Use this for initialization
 	void Start () {
@@ -21,11 +20,7 @@ public class GhostPoint : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D other) {
        if(other.gameObject.tag == "Ghost") {
             HouseGhost ghost = other.GetComponent<HouseGhost>();
-            if(ghost.currentDirection == Direction.DOWN || ghost.currentDirection == Direction.UP) {
-                ghost.Turn(y);
-            }  else {
-                ghost.Turn(x);
-            }
+            ghost.Turn(directions[Random.Range(0, directions.Length)]);            
         }
     }
 }

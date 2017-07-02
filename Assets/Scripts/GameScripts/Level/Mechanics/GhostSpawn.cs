@@ -19,56 +19,59 @@ public class GhostSpawn : MonoBehaviour {
 	}
 
     private void OnTriggerEnter2D(Collider2D other) {
+      
         if(other.gameObject.tag == "Character") {
 
             GhostPoint[] gPoints = transform.parent.GetComponentsInChildren<GhostPoint>();
 
-            
-            float spawnX = 0;
-            float spawnY = 0;
-            GhostPoint from = gPoints[Random.Range(0, gPoints.Length)];
+            for (int currGhosts = 1; currGhosts <= ghostNumber; currGhosts++) {
+                float spawnX = 0;
+                float spawnY = 0;
+                GhostPoint from = gPoints[Random.Range(0, gPoints.Length)];
 
-            Direction spawnDirection = Random.Range(0, 2) == 0 ? from.x : from.y;
-            Vector2 directionVec = new Vector2();
+                Direction spawnDirection = from.directions[Random.Range(0, from.directions.Length*2)/2];
+                Vector2 directionVec = new Vector2();
 
-            float offset1 = 0.5f;            
+                float offset = 0.5f;
 
-            switch (spawnDirection) {
-                case Direction.UP:
-                    directionVec = Vector2.up;
-                    offset *= -1;
-                    break;
-                case Direction.RIGHT:
-                    directionVec = Vector2.right;
-                    break;
-                case Direction.LEFT:
-                    directionVec = Vector2.left;
-                    break;
-                case Direction.DOWN:
-                    directionVec = Vector2.down;
-                    break;
+                switch (spawnDirection) {
+                    case Direction.UP:
+                        directionVec = Vector2.up;
+                        offset *= -1;
+                        break;
+                    case Direction.RIGHT:
+                        directionVec = Vector2.right;
+                        break;
+                    case Direction.LEFT:
+                        directionVec = Vector2.left;
+                        break;
+                    case Direction.DOWN:
+                        directionVec = Vector2.down;
+                        break;
+                }
+
+                CircleCollider2D fromCollider = from.GetComponent<CircleCollider2D>();
+                RaycastHit2D[] rayHit = new RaycastHit2D[1];
+                fromCollider.Raycast(directionVec, rayHit, 10, LayerMask.GetMask("SceneTop"));
+                CircleCollider2D toCollider = (CircleCollider2D)rayHit[0].collider;
+
+                Vector2 fromPoint = fromCollider.transform.TransformPoint(fromCollider.offset);
+                Vector2 toPoint = toCollider.transform.TransformPoint(toCollider.offset);
+
+                if (fromPoint.x == toPoint.x) {                  
+                    spawnX = fromPoint.x;
+                    spawnY = Random.Range(fromPoint.y, toPoint.y);
+                } else {                   
+                    spawnY = fromPoint.y;
+                    spawnX = Random.Range(fromPoint.x, toPoint.x);
+                }
+
+                GameObject ghost = (GameObject)Instantiate(baseGhost, transform.parent);
+                HouseGhost hGhost = ghost.GetComponent<HouseGhost>();
+                hGhost.Spawn(spawnDirection, spawnX, spawnY);
             }
 
-
-            RaycastHit2D[] rayHit = new RaycastHit2D[1];
-            from.GetComponent<CircleCollider2D>().Raycast(directionVec, rayHit);
-
-            GhostPoint to = rayHit[0].transform.GetComponent<GhostPoint>();
-
-            if (from.transform.position.x == to.transform.position.x) {
-                spawnDirection = from.x;
-                spawnX = from.transform.position.x;
-                spawnY = Random.Range(from.transform.position.y+0.5f, to.transform.position.y);
-            } else {
-                spawnDirection = from.y;
-                spawnY = from.transform.position.y;
-                spawnX = Random.Range(from.transform.position.x + 0.5f, to.transform.position.x);
-            }
-
-            GameObject ghost = (GameObject)Instantiate(baseGhost);
-            HouseGhost hGhost = ghost.GetComponent<HouseGhost>();
-            hGhost.Spawn(spawnDirection, spawnX, spawnY);
-            print(from + " - " + to + " - " + spawnDirection);
+            Destroy(transform.gameObject);
 
         }
     }
