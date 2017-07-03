@@ -6,6 +6,7 @@ using UnityEngine;
 public class Container : IterativeObject {
 
     public List<GameItem> items;
+    public bool destroy;
 
     // Use this for initialization
     void Start () {
@@ -26,6 +27,9 @@ public class Container : IterativeObject {
                     character.getInventory().Put(item);
                 }
                 items.Clear();
+                if(destroy) {
+                    Destroy(transform.gameObject);
+                }
             } else {
                 base.Interact(actor);
             }

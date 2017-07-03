@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Message : IterativeObject {
 
-    public string message;   
+    public string[] messages;   
 
     // Use this for initialization
     void Start () {
@@ -18,7 +18,11 @@ public class Message : IterativeObject {
 	}
 
     public override bool Interact(GameObject actor) {
-        LevelController.instance.messageController.ShowDialogBox(message);
+        if(messages.Length > 0) {
+            foreach(String message in messages) {
+                LevelController.instance.messageController.ShowDialogBox(message.Replace("#N","\n"));
+            }           
+        }        
         return true;
     }
 

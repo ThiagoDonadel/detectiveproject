@@ -5,11 +5,11 @@ using UnityEngine.UI;
 using System;
 using GameEnums;
 
-public class Character : MonoBehaviour {   
-
-    public Direction currentDirection;
+public class Character : MonoBehaviour { 
+    
     public float moveSpeed;
-    public bool walking;    
+    public bool walking;
+    public float speedModifier;
 
     private Animator walkAnimator;
     private IterativeObject targetObject;
@@ -22,10 +22,10 @@ public class Character : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        walkAnimator = GetComponent<Animator>();       
+        walkAnimator = GetComponent<Animator>();
     }
 
-    private void FixedUpdate() {
+    private void Update() {
         if (Input.GetKeyDown(KeyCode.X)) {
             DoAction();
         } else {
@@ -39,35 +39,19 @@ public class Character : MonoBehaviour {
 
     private void DoWalk() {
 
-        Direction movementDirection = Direction.NONE;
+        Vector2 movement = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
 
-        float hMovement = Input.GetAxis("Horizontal");
-        float vMovement = Input.GetAxis("Vertical");
-
-        movementDirection = hMovement > 0 ? Direction.RIGHT : hMovement < 0 ? Direction.LEFT : movementDirection;
-        movementDirection = vMovement > 0 ? Direction.UP : vMovement < 0 ? Direction.DOWN : movementDirection;
-
-        if(movementDirection != Direction.NONE) {
-            if (currentDirection != movementDirection) {
-                currentDirection = movementDirection;
-                walking = false;
-                UpdateAnimatorParams();
-                Input.ResetInputAxes();
-            } else {                
-                walking = true;
-                UpdateAnimatorParams();
-                Vector2 movement = new Vector2(hMovement * moveSpeed, vMovement * moveSpeed);
-                GetComponent<Rigidbody2D>().velocity = movement;
-            }
+        if(movement == Vector2.zero) {
+            walking = false;
+            walkAnimator.SetBool("walking", walking);
         } else {
-            if(walking) {
-                walking = false;
-                UpdateAnimatorParams();
-                GetComponent<Rigidbody2D>().velocity = new Vector2(0,0);                
-            }
-        }
-
-      
+            walking = true;
+            walkAnimator.SetBool("walking", walking);
+            walkAnimator.SetFloat("x", movement.x);
+            walkAnimator.SetFloat("y", movement.y);
+            Rigidbody2D rb = GetComponent<Rigidbody2D>();
+            rb.MovePosition(rb.position + movement * Time.deltaTime * (moveSpeed + speedModifier));
+        }      
     }
 
     private void OnCollisionEnter2D(Collision2D collision) {       
@@ -91,10 +75,4 @@ public class Character : MonoBehaviour {
             targetObject.Interact(transform.gameObject);
         }
     }
-
-    private void UpdateAnimatorParams() {        
-        walkAnimator.SetInteger("direction", ((int) currentDirection)+1);
-        walkAnimator.SetBool("walking", walking);
-    }
-
 }
