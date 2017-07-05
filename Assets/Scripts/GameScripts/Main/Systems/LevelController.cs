@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class LevelController : MonoBehaviour {
 
     public static LevelController instance;
-    public MessageController messageController;
     public int level;
 
     private void Awake() {

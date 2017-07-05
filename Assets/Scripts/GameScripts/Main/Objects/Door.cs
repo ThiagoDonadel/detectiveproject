@@ -37,7 +37,7 @@ public class Door : IterativeObject {
                             locked = false;
                             Open();                            
                         } else {
-                            LevelController.instance.messageController.ShowDialogBox("A porta está trancada!!!");
+                            GUIController.instance.eventDialog.ShowDialog("A porta está trancada!!!");
                         }                        
                     }
                 } else {

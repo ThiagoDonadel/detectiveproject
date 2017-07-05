@@ -20,7 +20,7 @@ public class Message : IterativeObject {
     public override bool Interact(GameObject actor) {
         if(messages.Length > 0) {
             foreach(String message in messages) {
-                LevelController.instance.messageController.ShowDialogBox(message.Replace("#N","\n"));
+               GUIController.instance.eventDialog.ShowDialog(message.Replace("#N","\n"));
             }           
         }        
         return true;

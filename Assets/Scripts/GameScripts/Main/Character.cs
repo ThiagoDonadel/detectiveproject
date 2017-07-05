@@ -16,6 +16,8 @@ public class Character : MonoBehaviour {
 
     private Invetory inventory;
 
+    private SpriteRenderer actionBallon;
+
     private void Awake() {
         inventory = new Invetory();
     }
@@ -23,6 +25,8 @@ public class Character : MonoBehaviour {
     // Use this for initialization
     void Start () {
         walkAnimator = GetComponent<Animator>();
+        actionBallon = GameObject.Find("ActionBallon").GetComponent<SpriteRenderer>();
+        actionBallon.enabled = false;
     }
 
     private void Update() {
@@ -57,14 +61,14 @@ public class Character : MonoBehaviour {
     private void OnCollisionEnter2D(Collision2D collision) {       
         if(collision.gameObject.tag == "Iteractive") {
             targetObject = collision.gameObject.GetComponent<IterativeObject>();
-            LevelController.instance.messageController.ShowDialogBallon("...", transform.gameObject);
+            actionBallon.enabled = true;
         }
     }
 
     private void OnCollisionExit2D(Collision2D collision) {
         if(targetObject != null) {
             if (targetObject.tag == "Iteractive") {
-                LevelController.instance.messageController.HideDialogBallon();
+                actionBallon.enabled = false;
             }
             targetObject = null;            
         }

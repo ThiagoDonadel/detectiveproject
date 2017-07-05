@@ -8,11 +8,12 @@ public class Spirit : MonoBehaviour {
     public string[] lines;
 
     private bool moving;
-    private Vector2 targetPos;
+    private Vector2 moveTarget;
+    private Vector2 hidePosition;
 
     private void Awake() {
-        moving = false;
-        ShowHide();
+        hidePosition = (Vector2)transform.position;
+        Hide();
     }
 
     // Use this for initialization
@@ -24,28 +25,40 @@ public class Spirit : MonoBehaviour {
 	void Update () {       
 		if(moving) {
             Rigidbody2D rb = GetComponent<Rigidbody2D>();
-            Vector2 direction = (targetPos - rb.position).normalized;
+            Vector2 direction = (moveTarget - rb.position).normalized;
             rb.MovePosition(rb.position + direction * speed * Time.deltaTime);
            
-            if(Vector2.Distance(targetPos, rb.position) < 0.1f) {                
-                moving = false;
-                ShowHide();
+            if(Vector2.Distance(moveTarget, rb.position) < 0.1f) {
+                Hide();
             }
             
         }
 	}
    
 
-    public void ShowHide() {
-        GetComponent<SpriteRenderer>().enabled = moving;
-        //GetComponent<Collider2D>().enabled = moving;
+    private void Reveal() {
+        GetComponent<SpriteRenderer>().enabled = true;
+        GetComponent<Collider2D>().enabled = true;
+    }
+
+    private void Hide() {
+        GetComponent<SpriteRenderer>().enabled = false;
+        GetComponent<Collider2D>().enabled = false;
+        GetComponent<Rigidbody2D>().MovePosition(hidePosition);
+        moving = false;
     }
 
 
-    public void Move(Vector2 destination) {        
-        targetPos = destination;
+    public void Move(Vector2 destination, Vector2 newHidePosition) {        
+        moveTarget = destination;
+        hidePosition = newHidePosition;
         moving = true;
-        ShowHide();        
+        Reveal();        
     }
+
+    public string GetLine(int type) {
+
+        return null;
+    } 
 
 }

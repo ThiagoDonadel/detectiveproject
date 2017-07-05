@@ -16,7 +16,8 @@ public class IterativeObject : MonoBehaviour {
 
     public virtual bool Interact(GameObject actor) {
         if(actor.tag == "Character") {
-            LevelController.instance.messageController.ShowDialogBox("Não há nada aqui");
+            // GUIController.instance.eventDialog.ShowDialog("Não há nada aqui");
+            GUIController.instance.eventDialog.ShowDialog("0123456789teste");
         }        
         return true;
     }
