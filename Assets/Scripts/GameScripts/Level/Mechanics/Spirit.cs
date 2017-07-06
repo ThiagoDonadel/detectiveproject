@@ -5,7 +5,9 @@ using UnityEngine;
 public class Spirit : MonoBehaviour {
 
     public float speed = 2;
-    public string[] lines;
+    public bool disapear;
+    public string sName;
+
 
     private bool moving;
     private Vector2 moveTarget;
@@ -13,6 +15,7 @@ public class Spirit : MonoBehaviour {
 
     private void Awake() {
         hidePosition = (Vector2)transform.position;
+        disapear = false;
         Hide();
     }
 
@@ -34,7 +37,6 @@ public class Spirit : MonoBehaviour {
             
         }
 	}
-   
 
     private void Reveal() {
         GetComponent<SpriteRenderer>().enabled = true;
@@ -42,10 +44,14 @@ public class Spirit : MonoBehaviour {
     }
 
     private void Hide() {
-        GetComponent<SpriteRenderer>().enabled = false;
-        GetComponent<Collider2D>().enabled = false;
-        GetComponent<Rigidbody2D>().MovePosition(hidePosition);
-        moving = false;
+        if (disapear) {
+            Destroy(transform.gameObject);
+        } else {
+            GetComponent<SpriteRenderer>().enabled = false;
+            GetComponent<Collider2D>().enabled = false;
+            GetComponent<Rigidbody2D>().MovePosition(hidePosition);
+            moving = false;
+        }
     }
 
 

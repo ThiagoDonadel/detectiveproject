@@ -7,6 +7,7 @@ public class HideAndSeek : MonoBehaviour {
 
     public Spirit spirt;
     public SpiritLair lair;
+    public Container key;
 
     private int found;
     private int attempts;
@@ -18,6 +19,8 @@ public class HideAndSeek : MonoBehaviour {
         found = 0;
         attempts = 0;
         started = false;
+        key.Hide();
+        spirt.sName = "?????";
     }
 
     // Update is called once per frame
@@ -28,11 +31,8 @@ public class HideAndSeek : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.tag == "Character" && !started) {
             StartCoroutine(ShakeObject(lair, 4, 2));
-            GUIController.instance.conversationDialog.ShowDialog("?????", "INVASOR!! VÁ EMBORA ... VOCÊ NUNCA TERA AQUILO QUE ME PERTENCE");
-            started = true;
-        } else if(other.gameObject == spirt.gameObject) {
-            print("espirito passou");
-        }
+            GUIController.instance.conversationDialog.ShowDialog(spirt.sName, "INVASOR!! VÁ EMBORA ... VOCÊ NUNCA TERA AQUILO QUE ME PERTENCE");
+        } 
     }
 
     private IEnumerator ShakeObject(SpiritLair target, int times, float waitToStart ) {
@@ -53,42 +53,54 @@ public class HideAndSeek : MonoBehaviour {
 
     public void checkFound(SpiritLair searching) {
         string speech;
-        if (searching.hidden) {
+       
+        if (searching.hidden) {           
             found++;
-            attempts = 0;
-            lair.hidden = false;
+            attempts = 0;            
             speech = "Você nunca terá aquilo que me pertence";
+            if(!started) {
+                started = true;
+                spirt.sName = "Espirito Ancião";
+            }
         } else {
             speech = "Você nunca irá me achar... HA HA HA HA";
-        }      
-
-        if (found == 4) {
-            Vector2 lastPoint = (Vector2)transform.position + Vector2.down;
-            spirt.Move(lastPoint, lastPoint);
-            speech = "Você ganhou...";
-        } else {
-          
-            SpiritLair[] lairs = transform.parent.GetComponentsInChildren<SpiritLair>();
-            SpiritLair newLair;
-            do {
-                newLair = lairs[Random.Range(0, lairs.Length)];               
-            } while (newLair.gameObject == searching.gameObject || newLair.gameObject == lair.gameObject);
-           
-            Vector2 hideLocation = newLair.transform.position;
-            newLair.hidden = true;
-            spirt.Move(new Vector2(7.5f,1.5f), hideLocation);
-            lair = newLair;
-
-            if(searching != lastSearch) attempts++;            
-
-            if (attempts % 4 == 0) {
-                StartCoroutine(ShakeObject(lair, 2, 3));
-            }
-
-            lastSearch = searching;
-
         }
 
-        GUIController.instance.conversationDialog.ShowDialog("Espirito Ancião", speech);
+        
+
+        if(started) { 
+            lair.hidden = false;
+            if (found == 4) {
+                Vector2 lastPoint = (Vector2)transform.position + Vector2.down;
+                Vector2 direction = (lastPoint - (Vector2)spirt.transform.position).normalized;
+                spirt.disapear = true;
+                spirt.Move(lastPoint, lastPoint);
+                speech = "Você ganhou...";
+                key.transform.position = spirt.transform.position + ((Vector3)direction * 0.8f);
+                key.Show();                
+                Destroy(transform.gameObject);
+            } else {
+
+                SpiritLair[] lairs = transform.parent.GetComponentsInChildren<SpiritLair>();
+                SpiritLair newLair;
+                do {
+                    newLair = lairs[Random.Range(0, lairs.Length)];
+                } while (newLair.gameObject == searching.gameObject || newLair.gameObject == lair.gameObject);
+
+                Vector2 hideLocation = newLair.transform.position;
+                newLair.hidden = true;
+                spirt.Move(new Vector2(7.5f, 1.5f), hideLocation);
+                lair = newLair;
+                if (searching != lastSearch) attempts++;
+
+                if (attempts % 4 == 0) {
+                    StartCoroutine(ShakeObject(lair, 2, 3));
+                }
+
+                lastSearch = searching;
+            }
+        }
+
+        GUIController.instance.conversationDialog.ShowDialog(spirt.sName, speech);
     }
 }

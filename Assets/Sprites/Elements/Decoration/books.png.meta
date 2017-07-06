@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 6e32f69c91742c54cbd1d9cbfd0681a5
-timeCreated: 1498769177
+guid: 6be3c76dadc46454bb2f1e985765768a
+timeCreated: 1499363053
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -57,6 +57,8 @@ TextureImporter:
     21300100: books_50
     21300102: books_51
     21300104: books_52
+    21300106: books_53
+    21300108: books_54
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -804,8 +806,34 @@ TextureImporter:
         serializedVersion: 2
         x: 159
         y: 7
-        width: 95
-        height: 23
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: books_53
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 7
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: books_54
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 4
+        width: 32
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

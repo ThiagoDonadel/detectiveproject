@@ -58,20 +58,39 @@ public class Character : MonoBehaviour {
         }      
     }
 
-    private void OnCollisionEnter2D(Collision2D collision) {       
-        if(collision.gameObject.tag == "Iteractive") {
-            targetObject = collision.gameObject.GetComponent<IterativeObject>();
-            actionBallon.enabled = true;
+    private void OnCollisionEnter2D(Collision2D collision) {
+        if (collision.gameObject.tag == "Iteractive") {
+            TargetObject(collision.gameObject, true);
         }
     }
 
     private void OnCollisionExit2D(Collision2D collision) {
-        if(targetObject != null) {
-            if (targetObject.tag == "Iteractive") {
-                actionBallon.enabled = false;
-            }
-            targetObject = null;            
+        if (collision.gameObject.tag == "Iteractive") {
+            TargetObject(collision.gameObject, false);
         }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other) {
+        if (other.gameObject.tag == "Iteractive") {
+            TargetObject(other.gameObject, true);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other) {
+        if (other.gameObject.tag == "Iteractive") {
+            TargetObject(other.gameObject, false);
+        }
+    }
+
+    private void TargetObject(GameObject obj, bool target) {
+        
+            if(target) {
+                targetObject = obj.GetComponent<IterativeObject>();
+                actionBallon.enabled = true;
+            } else {
+                actionBallon.enabled = false;
+                targetObject = null;
+            }
     }
 
     private void DoAction() {
