@@ -6,7 +6,7 @@ public class Piano : IterativeObject {
 
     public AudioClip[] notes;
     public bool playing = false;
-    public Door targetDoor;
+    public EventDoor targetDoor;
 
     private new AudioSource audio;
     private Canvas pianoCanvas;
@@ -35,7 +35,7 @@ public class Piano : IterativeObject {
             if (song[correctNotes] == index.ToString()) {
                 correctNotes++;
                 if(correctNotes == song.Length) {
-                    targetDoor.UnlockAndOpen();
+                    targetDoor.ReleaseLock();
                     songPlayed = true;
                 }
             } else {

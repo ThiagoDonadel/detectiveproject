@@ -5,59 +5,38 @@ using UnityEngine;
 
 public class Door : IterativeObject {
 
-    public enum LockType { NONE, KEY, PASSWORD, EVENT };
+    
     public bool locked;
-    public bool closed;
-    public LockType lockType = LockType.NONE;
-    public string unlockWith;
+    public bool open;
 
     private Animator doorAnimator;
 
 
     // Use this for initialization
-    void Start () {
+    protected virtual void Start () {
         doorAnimator = GetComponent<Animator>();
-    }
-	
-	// Update is called once per frame
-	void Update () {
-      
-	}
+    }	
 
     public override bool Interact(GameObject actor) {
 
-        bool successful = false;
+       if(locked) {
+            Unlock(actor);
+        } else {
+            Open();
+        }
 
-        if (actor.tag == "Character") {
-            Character character = actor.GetComponent<Character>();
-            if (closed) {
-                if (locked) {
-                    if (lockType == LockType.KEY) {
-                        if(character.getInventory().Consume(unlockWith)) {
-                            locked = false;
-                            Open();                            
-                        } else {
-                            GUIController.instance.eventDialog.ShowDialog("A porta está trancada!!!");
-                        }                        
-                    }
-                } else {
-                    Open();
-                }
-            }
-           
-        }  
+       
 
-        return successful;
+        return true;
     }
 
-    public void UnlockAndOpen() {
-        locked = false;
-        Open();
-    }
+    protected virtual void Unlock(GameObject actor) {
+        GUIController.instance.eventDialog.ShowDialog("A porta está trancada!!!");
+    }    
 
-    private void Open() {      
-        closed = false;     
-        doorAnimator.SetBool("open", !closed);
+    protected virtual void Open() {
+        open = true;    
+        doorAnimator.SetBool("open", open);
         GetComponent<AudioSource>().Play();
     }
 
