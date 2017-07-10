@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class RuneTrap : MonoBehaviour {
-
-    public string name;
+   
     public bool safe;
 
     private bool pushed;
@@ -23,6 +22,8 @@ public class RuneTrap : MonoBehaviour {
         pushed = true;
         if (!safe) {
             StartCoroutine(Explode());
+        } else {
+            GetComponent<SpriteRenderer>().color = new Color32(253, 74, 74, 255); 
         }
        
     }
@@ -31,12 +32,10 @@ public class RuneTrap : MonoBehaviour {
         pushed = false;        
     }
 
-  
-
     private IEnumerator Explode() {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.4f);
         if (pushed) {
-            print(name + " Explodiu");
+            GameObject.Find("Character").GetComponent<Character>().Kill(Character.KillTYpe.EXPLOSION);
         }
     }
 }

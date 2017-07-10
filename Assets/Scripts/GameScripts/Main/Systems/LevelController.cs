@@ -23,6 +23,20 @@ public class LevelController : MonoBehaviour {
 	}
 
     public void ResetLevel() {
+        StartCoroutine(Restart());
+    }
+
+    private IEnumerator Restart() {
+        yield return new WaitForSeconds(1);
         SceneManager.LoadScene("level" + level);
     }
+
+    public void ExitApp() {
+        Application.Quit();
+    }
+
+    public void GameOver() {
+        StartCoroutine(GUIController.instance.gameOverUI.DoGameOver());
+    }
+   
 }

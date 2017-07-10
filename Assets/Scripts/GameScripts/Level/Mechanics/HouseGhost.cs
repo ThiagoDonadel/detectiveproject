@@ -7,18 +7,7 @@ public class HouseGhost : MonoBehaviour {
 
     public float speed;
     public Sprite[] spritesMap;
-    public Direction currentDirection = Direction.RIGHT;
-
-    // Use this for initialization
-    void Start() {
-        //StartMoving();
-    }
-
-
-    // Update is called once per frame
-    void Update() {
-
-    }
+    public Direction currentDirection = Direction.RIGHT;    
 
     public void Spawn(Direction startDirection, float x, float y) {
         currentDirection = startDirection;
@@ -61,7 +50,9 @@ public class HouseGhost : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D other) {
         if (other.gameObject.tag == "Character") {
-            LevelController.instance.ResetLevel();
+            other.GetComponent<Character>().Kill(Character.KillTYpe.GHOST);
+            Destroy(GameObject.Find("GhostPoints"));
         }
     }
+   
 }

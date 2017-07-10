@@ -8,6 +8,8 @@ public class GhostSpawn : MonoBehaviour {
     public int ghostNumber;
     public GameObject baseGhost;
 
+    private bool started = false;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -20,7 +22,7 @@ public class GhostSpawn : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D other) {
       
-        if(other.gameObject.tag == "Character") {
+        if(other.gameObject.tag == "Character" && !started) {
 
             GhostPoint[] gPoints = transform.parent.GetComponentsInChildren<GhostPoint>();
 
@@ -71,9 +73,17 @@ public class GhostSpawn : MonoBehaviour {
                 hGhost.Spawn(spawnDirection, spawnX, spawnY);
             }
 
-            Destroy(transform.gameObject);
-
+            GetComponent<AudioSource>().Play();
+            Character character = other.GetComponent<Character>();
+            GUIController.instance.conversationDialog.ShowDialog(character.charName, "OOHH... Esses fantasmas parecem perigosos melhor eu não deixar eles se aproximarem!!");
+            started = true;
+            StartCoroutine(AutoDestroy());
         }
+    }
+
+    private IEnumerator AutoDestroy() {
+        yield return new WaitForSeconds(GetComponent<AudioSource>().clip.length);
+        Destroy(transform.gameObject);
     }
 
 }

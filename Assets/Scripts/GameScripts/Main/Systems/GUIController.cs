@@ -9,6 +9,7 @@ public class GUIController : MonoBehaviour {
     
     public Dialog eventDialog;
     public ConversationDialog conversationDialog;
+    public GameOver gameOverUI;
 
     private void Awake() {
        
@@ -20,6 +21,7 @@ public class GUIController : MonoBehaviour {
 
         eventDialog = this.transform.Find("EventDialog").GetComponent<Dialog>();
         conversationDialog = this.transform.Find("ConversationDialog").GetComponent<ConversationDialog>();
+        gameOverUI = this.transform.Find("GameOverUI").GetComponent<GameOver>();
     }
 	
 	// Update is called once per frame

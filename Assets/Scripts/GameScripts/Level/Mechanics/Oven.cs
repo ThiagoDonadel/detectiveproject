@@ -28,6 +28,7 @@ public class Oven : IterativeObject {
                 flame[index].enabled = false;
             }
             GameObject.Find("Character").GetComponent<Character>().speedModifier = 0;
+            this.tag = "Untagged";
             recipe.Show();
         } else {
 

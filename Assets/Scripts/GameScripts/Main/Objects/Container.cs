@@ -25,6 +25,7 @@ public class Container : IterativeObject {
                 Character character = actor.GetComponent<Character>();
                 foreach (GameItem item in items) {
                     character.getInventory().Put(item);
+                    character.NewItem();
                 }
                 items.Clear();
                 if(destroy) {

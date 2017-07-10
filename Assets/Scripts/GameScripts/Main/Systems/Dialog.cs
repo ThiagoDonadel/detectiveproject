@@ -59,7 +59,8 @@ public class Dialog : MonoBehaviour {
 
         while (text.Length > maxSize) {
             string newLine = text.Substring(0, maxSize);
-            text = text.Substring(newLine.Length, text.Length - newLine.Length);
+            print(text.Length);
+            text = text.Substring(newLine.Length, text.Length - newLine.Length);           
             newLines.Add(newLine);
         }
 

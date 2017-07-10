@@ -10,7 +10,7 @@ public class Cipher : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		digits =  new int[]{ 1,1,1,1 };
+		digits =  new int[]{ 0,0,0,0 };
 	}
 
 
@@ -24,6 +24,11 @@ public class Cipher : MonoBehaviour {
 
     private void AlterDigit(int digitIndex, int modifier) {
         digits[digitIndex] += modifier;
+        if(digits[digitIndex] == 10) {
+            digits[digitIndex] = 0;
+        } else if (digits[digitIndex] == -1) {
+            digits[digitIndex] = 9;
+        }
         transform.Find("Digit" + (digitIndex+1)).Find("Text").GetComponent<Text>().text = digits[digitIndex].ToString();
         StartCoroutine(CheckPassword());
     }
