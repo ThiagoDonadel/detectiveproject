@@ -29,6 +29,4 @@ public class ConversationDialog : Dialog {
         nameField.text = line[0];
         base.PrintText(line[1]);
     }
-
-
 }

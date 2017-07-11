@@ -13,11 +13,13 @@ public class Character : MonoBehaviour {
     public float moveSpeed;
     public bool walking;
     public float speedModifier;
-    public List<AudioClip> sounds;    
+    public List<AudioClip> sounds;
+   
 
     private Animator walkAnimator;
     private AudioSource audioPlayer;
     private IterativeObject targetObject;
+    private bool imune = true;
 
     private Invetory inventory;
 
@@ -79,6 +81,7 @@ public class Character : MonoBehaviour {
                 GhostHug();
                 break;
             case KillTYpe.SMOKE:
+                Suffocate();
                 break;
         }       
         LevelController.instance.GameOver();
@@ -137,4 +140,27 @@ public class Character : MonoBehaviour {
             targetObject.Interact(transform.gameObject);
         }
     }
+
+    public IEnumerator StayImune(float time) {
+        List<Color> colors = new List<Color>();
+        colors.Add(new Color32(242, 215, 2,170));      
+        colors.Add(Color.white);
+        float currTime = 0;
+        float changeTimer = 0.3f;
+
+        int current = 0;
+        while(currTime < time) {
+            GetComponent<SpriteRenderer>().color = colors[current];
+            current++;
+            if(current >= colors.Count) {
+                current = 0;
+            }
+            yield return new WaitForSeconds(changeTimer);
+            currTime += changeTimer;
+        }
+
+        GetComponent<SpriteRenderer>().color = Color.white;
+    }
+
+    
 }
