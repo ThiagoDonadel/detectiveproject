@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 3059f1b167d49144ead534333b472fc6
-timeCreated: 1498823298
+guid: b88ef925667f8fa4cba9b77d3a33988e
+timeCreated: 1499879349
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -88,10 +88,10 @@ TextureImporter:
         serializedVersion: 2
         x: 8
         y: 11
-        width: 21
+        width: 17
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -99,12 +99,12 @@ TextureImporter:
       name: potions_1
       rect:
         serializedVersion: 2
-        x: 39
-        y: 8
-        width: 26
-        height: 28
+        x: 40
+        y: 11
+        width: 19
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -112,12 +112,12 @@ TextureImporter:
       name: potions_2
       rect:
         serializedVersion: 2
-        x: 71
-        y: 8
-        width: 26
-        height: 28
+        x: 72
+        y: 11
+        width: 19
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -125,12 +125,12 @@ TextureImporter:
       name: potions_3
       rect:
         serializedVersion: 2
-        x: 103
-        y: 8
-        width: 26
-        height: 28
+        x: 104
+        y: 11
+        width: 19
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -138,12 +138,12 @@ TextureImporter:
       name: potions_4
       rect:
         serializedVersion: 2
-        x: 135
-        y: 8
-        width: 26
-        height: 28
+        x: 136
+        y: 11
+        width: 19
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -151,12 +151,12 @@ TextureImporter:
       name: potions_5
       rect:
         serializedVersion: 2
-        x: 167
-        y: 8
-        width: 26
-        height: 28
+        x: 168
+        y: 11
+        width: 19
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -164,12 +164,12 @@ TextureImporter:
       name: potions_6
       rect:
         serializedVersion: 2
-        x: 199
-        y: 8
-        width: 26
-        height: 28
+        x: 200
+        y: 11
+        width: 19
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -179,10 +179,10 @@ TextureImporter:
         serializedVersion: 2
         x: 230
         y: 7
-        width: 27
+        width: 25
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -192,10 +192,10 @@ TextureImporter:
         serializedVersion: 2
         x: 262
         y: 7
-        width: 27
+        width: 22
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -205,10 +205,10 @@ TextureImporter:
         serializedVersion: 2
         x: 294
         y: 7
-        width: 27
+        width: 22
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -218,10 +218,10 @@ TextureImporter:
         serializedVersion: 2
         x: 326
         y: 7
-        width: 27
+        width: 22
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -231,10 +231,10 @@ TextureImporter:
         serializedVersion: 2
         x: 358
         y: 7
-        width: 27
+        width: 22
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -244,10 +244,10 @@ TextureImporter:
         serializedVersion: 2
         x: 390
         y: 7
-        width: 26
+        width: 22
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
