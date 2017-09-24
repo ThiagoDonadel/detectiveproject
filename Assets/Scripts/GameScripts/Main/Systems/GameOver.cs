@@ -21,8 +21,7 @@ public class GameOver : MonoBehaviour {
         LevelController.instance.ExitApp();
     }
 	
-	public IEnumerator DoGameOver() {       
-        yield return new WaitForSeconds(0.5f);
+	public void DoGameOver() {
         audioPlayer.Play();
         gameOverCanvas.enabled = true;
     }

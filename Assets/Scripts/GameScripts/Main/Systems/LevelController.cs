@@ -36,7 +36,8 @@ public class LevelController : MonoBehaviour {
     }
 
     public void GameOver() {
-        StartCoroutine(GUIController.instance.gameOverUI.DoGameOver());
+        GameObject.Find("SceneMusic").GetComponent<AudioSource>().Stop();
+        GUIController.instance.gameOverUI.DoGameOver();
     }
    
 }

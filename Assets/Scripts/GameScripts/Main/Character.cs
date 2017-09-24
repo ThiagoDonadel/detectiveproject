@@ -7,7 +7,7 @@ using GameEnums;
 
 public class Character : MonoBehaviour {
 
-    public enum KillTYpe { EXPLOSION, GHOST, SMOKE };
+    public enum KillTYpe { EXPLOSION, GHOST, SMOKE, FIRE, ICE, STONE };
 
     public string charName;
     public float moveSpeed;
@@ -73,31 +73,78 @@ public class Character : MonoBehaviour {
 
     public void Kill(KillTYpe type) {
         moveSpeed = 0;
+        actionBallon.enabled = false;
+        string killMethod = "";
         switch (type) {
             case KillTYpe.EXPLOSION:
-                Explode();
+                killMethod = "Explode";
                 break;
             case KillTYpe.GHOST:
-                GhostHug();
+                killMethod = "GhostHug";
                 break;
             case KillTYpe.SMOKE:
-                Suffocate();
+                killMethod = "Suffocate";
                 break;
-        }       
+            case KillTYpe.FIRE:
+                killMethod = "CatchFire";
+                break;
+            case KillTYpe.ICE:
+                killMethod = "Freeze";
+                break;
+            case KillTYpe.STONE:
+                killMethod = "Petrify";
+                break;
+        }
+
+        StartCoroutine(killMethod);
+    }
+
+    private IEnumerator CatchFire() {
+        GetComponent<SpriteRenderer>().color = Color.red;
+        GUIController.instance.conversationDialog.ShowDialog(charName, "Que calor....");
+        yield return new WaitForSeconds(1);
+        GetComponent<SpriteRenderer>().color = Color.white;
+        walkAnimator.Play("OnFire");
+        yield return new WaitForSeconds(1);
         LevelController.instance.GameOver();
     }
 
-    private void Suffocate() {
-        GUIController.instance.conversationDialog.ShowDialog(charName, "Coof.. Coof.. Não.. Coff.. Consigo .. Coff.. Resp..");
+    private IEnumerator Freeze() {
+        GetComponent<SpriteRenderer>().color = Color.blue;
+        GUIController.instance.conversationDialog.ShowDialog(charName, "Que frioo....");
+        yield return new WaitForSeconds(1);
+        GetComponent<SpriteRenderer>().color = Color.white;
+        walkAnimator.Play("Freeze");
+        yield return new WaitForSeconds(0.5f);
+        LevelController.instance.GameOver();
     }
 
-    private void Explode() {       
+    private IEnumerator Petrify() {
+        GetComponent<SpriteRenderer>().color = new Color32(75,75,75,255);
+        GUIController.instance.conversationDialog.ShowDialog(charName, "Não consigo me mover....");
+        yield return new WaitForSeconds(2);       
+        LevelController.instance.GameOver();
+    }
+
+    
+
+    private IEnumerator Suffocate() {
+        GUIController.instance.conversationDialog.ShowDialog(charName, "Coof.. Coof.. Não.. Coff.. Consigo .. Coff.. Resp..");
+        yield return new WaitForSeconds(0.5f);
+        LevelController.instance.GameOver();        
+    }
+
+    private IEnumerator Explode() {       
         walkAnimator.Play("Explode");
         audioPlayer.PlayOneShot(sounds[1]);
+        yield return new WaitForSeconds(0.5f);
+        LevelController.instance.GameOver();        
     }
 
-    private void GhostHug() {
+    private IEnumerator GhostHug() {
         GetComponent<SpriteRenderer>().color = new Color32(153, 253, 253, 255);
+        yield return new WaitForSeconds(0.5f);
+        LevelController.instance.GameOver();       
     }
 
     private void OnCollisionEnter2D(Collision2D collision) {

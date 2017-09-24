@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class Cauldron : IterativeObject {
 
+    public Potion potion;
+
     private int[] ingredients;
     private int[] mixOrder;
 
@@ -13,8 +15,11 @@ public class Cauldron : IterativeObject {
     private Transform mixingDialog;
     private int next;
 
-	// Use this for initialization
-	void Start () {
+    private int[] formulaIngredients = new int[3] { 5,1,6 };
+    private int[] formulaMixOrder = new int[3] { 1, -1, -1 };
+
+    // Use this for initialization
+    void Start () {
         ingredients = new int[3] { 0, 0, 0 };
         mixOrder = new int[3] { 0, 0, 0 };
         next = 0;
@@ -53,8 +58,39 @@ public class Cauldron : IterativeObject {
     }
 
     private void CheckPrepareResult() {
+       
+        Potion.PotEffect effect = Potion.PotEffect.None; 
+        print(ingredients + " - " + formulaIngredients);       
+       if(ingredients[0] == formulaIngredients[0] && ingredients[1] == formulaIngredients[1] && ingredients[2] == formulaIngredients[2]) {
+            
+            if (mixOrder[0] == formulaMixOrder[0] && mixOrder[1] == formulaMixOrder[1] && mixOrder[2] == formulaMixOrder[2]) {
+                effect = Potion.PotEffect.Immune;
+            } else {
+                effect = PrepareRandomPotion(10, 10);
+            }
 
-    }
+        } else {
+            effect = PrepareRandomPotion(20, 7);
+        }
+
+        if(effect != Potion.PotEffect.None) {
+            potion.FillPotion(effect);
+        }
+
+    }   
+
+   private Potion.PotEffect PrepareRandomPotion(int range, int creationRange) {
+
+        Potion.PotEffect effect = Potion.PotEffect.None;
+
+        int random = Random.Range(0,range);
+
+        if(random < creationRange) {
+            effect = (Potion.PotEffect)Random.Range(2, 5);
+        }
+
+        return effect;
+    }  
 
     public void MixPotion(int side) {
         mixingCanvas.enabled = false;
